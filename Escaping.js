@@ -1,9 +1,20 @@
 function Escaping(){
-    console.log("He is ,\" Hand some\"");
-    console.log('I\'m happy');
-    console.log("she is so intrested\n I Really like her");
-    console.log(" This is a Good friend i found\\");
-    console.log("Call\\ Her\\ Hope batamuriza Kindest person");
+let EnrolledInCourse = true;
+let CompletedTheCourse = false;
+let studentName = "Uwitonze";
 
+console.log("Student name: " + studentName);
+console.log("Enrolled: " + EnrolledInCourse);
+console.log("Completed: " + CompletedTheCourse);
+
+if (EnrolledInCourse) {
+  console.log("Welcome " + studentName + " to Udacity!");
 }
-Escaping ();
+
+if (CompletedTheCourse) {
+  console.log("Congratulations! You finished the course.");
+} else {
+  console.log("Keep going! You have not finished the course yet.");
+}
+}
+Escaping();
