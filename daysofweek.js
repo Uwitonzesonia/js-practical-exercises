@@ -1,27 +1,67 @@
-function daysofweek () {
+// function daysofweek () {
   
-  let day = 4;
-  if (day ==1){
-    console.log("the day is monday");
-   }
-  else if ( day == 2){
-    console.log("the day is tuesday");
-  }
-  else if ( day == 3){
-    console.log("the day is wensday")
-  }
-  else if ( day == 4){
-    console.log("the day is thursday")
-  }
-else if ( day == 5){
-  console.log("the day is friday")
+//   let day = 4;
+//   if (day ==1){
+//     console.log("the day is monday");
+//    }
+//   else if ( day == 2){
+//     console.log("the day is tuesday");
+//   }
+//   else if ( day == 3){
+//     console.log("the day is wensday")
+//   }
+//   else if ( day == 4){
+//     console.log("the day is thursday")
+//   }
+// else if ( day == 5){
+//   console.log("the day is friday")
+// }
+//   else if (day == 6){
+//     console.log("the day is saturday")
+//   }
+//   else {
+//     console.log("the day is sunday")
+//   }
+//   return day;
+// }
+//  daysofweek ();
+// function howManydays(month){
+//   let days;
+//   switch (month){
+//       case 1:
+//       case 3:
+//       case 5:
+//       case 7:
+//       case 8:
+//       case 10:
+//       case 12:
+//       days = 31;
+//       break;
+//       case 4:
+//       case 6:
+//       case 9:
+//       case 11:
+//       days = 30 ;
+//       break;
+//       case 2:
+//       days = 28;
+//       break;
+//       default:
+//       days = "invalid day";
+//   }
+//   console.log(howManydays(8));
+//   return days;
+// }
+// howManydays();
+ if (true) {
+    var name = "Alice";
 }
-  else if (day == 6){
-    console.log("the day is saturday")
-  }
-  else {
-    console.log("the day is sunday")
-  }
-
+ console.log(name); // "Alice" -- it leaked outside the if block!
+if (true) {
+    let name = "Alice";
 }
-daysofweek();
+console.log(name); // ReferenceError: name is not defined
+if (true) {
+    const name = "Alice";
+}
+console.log(name); // ReferenceError: name is not defined
