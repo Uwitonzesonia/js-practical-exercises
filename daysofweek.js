@@ -107,12 +107,20 @@
 //   }
 // }
 // weekdays();
-function builtfunction(){
-  let name = "Uwitonze sonia";
-  let marks = 100;
-  let height = 4.5;
-  console.log(name.toUpperCase());
-  console.log(name.toLowerCase());
-  console.log(name.length);
+// function builtfunction(){
+//   let name = "Uwitonze sonia";
+//   let marks = 100;
+//   let height = 4.5;
+//   console.log(name.toUpperCase());
+//   console.log(name.toLowerCase());
+//   console.log(name.length);
+// }
+// builtfunction();
+function comparing(){
+  let name = "UWITONZE";
+  if(name.toLowerCase() ==="uwitonze"){
+    console.log(" this is correct");
+  }
+  console.log("we can leave");
 }
-builtfunction();
+comparing();
