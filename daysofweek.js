@@ -74,14 +74,37 @@
 //   }
 // }
 // elseif();
-function ifelse(){
-  let Age = 60;
-  if (Age >= 70){
-    console.log("you are adult take a rest");
-  }
-   else {
-    console.log("you still have energy to work");
-   }
+// function ifelse(){
+//   let Age = 60;
+//   if (Age >= 70){
+//     console.log("you are adult take a rest");
+//   }
+//    else {
+//     console.log("you still have energy to work");
+//    }
 
+// }
+// ifelse();
+function weekdays(){
+ let days = 4;
+  switch(days){
+    case 1: 
+    console.log("starting of the week");
+    break;
+    case 2: 
+    console.log("enjoing the week");
+    break;
+    case 3:
+      console.log(" middle of the week");
+      break;
+      case 4:
+        console.log("ending of the days of work");
+        break;
+        case 5:
+          console.log("starting the weekend");
+          break;
+          default:
+            console.log("default day");
+  }
 }
-ifelse();
+weekdays();
