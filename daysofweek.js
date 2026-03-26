@@ -54,10 +54,23 @@
 // }
 // howManydays();
 //  
-let score = 85;
+// let score = 85;
 
-if (score >= 90) {
-    console.log("You passed!");
+// if (score >= 90) {
+//     console.log("You passed!");
+// }
+
+// console.log("Program continues here...");
+function elseif(){
+  let marks = 89;
+  if (marks >= 90 ) {
+    console.log("Best perform");
+  }
+  else if ( marks >= 80 ){
+    console.log("very good");
+  }
+  else {
+    console.log("try to perform well");
+  }
 }
-
-console.log("Program continues here...");
+elseif();
