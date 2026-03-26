@@ -53,15 +53,11 @@
 //   return days;
 // }
 // howManydays();
- if (true) {
-    var name = "Alice";
+//  
+let score = 85;
+
+if (score >= 90) {
+    console.log("You passed!");
 }
- console.log(name); // "Alice" -- it leaked outside the if block!
-if (true) {
-    let name = "Alice";
-}
-console.log(name); // ReferenceError: name is not defined
-if (true) {
-    const name = "Alice";
-}
-console.log(name); // ReferenceError: name is not defined
+
+console.log("Program continues here...");
