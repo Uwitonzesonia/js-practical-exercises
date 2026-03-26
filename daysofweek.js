@@ -116,11 +116,18 @@
 //   console.log(name.length);
 // }
 // builtfunction();
-function comparing(){
-  let name = "UWITONZE";
-  if(name.toLowerCase() ==="uwitonze"){
-    console.log(" this is correct");
-  }
-  console.log("we can leave");
+// function comparing(){
+//   let name = "UWITONZE";
+//   if(name.toLowerCase() ==="uwitonze"){
+//     console.log(" this is correct");
+//   }
+//   console.log("we can leave");
+// }
+// comparing();
+function trim(){
+  let name = "   Sonia   ";
+  let sentence = "I am the win";
+  console.log(name.trim());
+  console.log(sentence.includes("javascript"));
 }
-comparing();
+trim();
