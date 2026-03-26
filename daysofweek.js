@@ -61,16 +61,27 @@
 // }
 
 // console.log("Program continues here...");
-function elseif(){
-  let marks = 89;
-  if (marks >= 90 ) {
-    console.log("Best perform");
+// function elseif(){
+//   let marks = 89;
+//   if (marks >= 90 ) {
+//     console.log("Best perform");
+//   }
+//   else if ( marks >= 80 ){
+//     console.log("very good");
+//   }
+//   else {
+//     console.log("try to perform well");
+//   }
+// }
+// elseif();
+function ifelse(){
+  let Age = 60;
+  if (Age >= 70){
+    console.log("you are adult take a rest");
   }
-  else if ( marks >= 80 ){
-    console.log("very good");
-  }
-  else {
-    console.log("try to perform well");
-  }
+   else {
+    console.log("you still have energy to work");
+   }
+
 }
-elseif();
+ifelse();
