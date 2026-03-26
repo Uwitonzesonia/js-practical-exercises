@@ -85,26 +85,34 @@
 
 // }
 // ifelse();
-function weekdays(){
- let days = 4;
-  switch(days){
-    case 1: 
-    console.log("starting of the week");
-    break;
-    case 2: 
-    console.log("enjoing the week");
-    break;
-    case 3:
-      console.log(" middle of the week");
-      break;
-      case 4:
-        console.log("ending of the days of work");
-        break;
-        case 5:
-          console.log("starting the weekend");
-          break;
-          default:
-            console.log("default day");
-  }
+// function weekdays(){
+//  let days = 4;
+//   switch(days){
+//     case 1: 
+//     console.log("starting of the week");
+//     break;
+//     case 2: 
+//     console.log("enjoing the week");
+//     break;
+//     case 3:
+//       console.log(" middle of the week");
+//       break;
+//       case 4:
+//         console.log("ending of the days of work");
+//         break;
+//         case 5:
+//           console.log("starting the weekend");
+//           break;
+         
+//   }
+// }
+// weekdays();
+function builtfunction(){
+  let name = "Uwitonze sonia";
+  let marks = 100;
+  let height = 4.5;
+  console.log(name.toUpperCase());
+  console.log(name.toLowerCase());
+  console.log(name.length);
 }
-weekdays();
+builtfunction();
