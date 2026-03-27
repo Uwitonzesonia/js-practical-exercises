@@ -153,13 +153,21 @@
 //   console.log(sentence.includes("hope"));
 // }
 // includes();
-function includes(){
-  let sentence = "uwitonzesonia2005@gmail.com";
-  if (sentence.includes("@")){
-    console.log("valid email");
-  }
-  else {
-    console.log("invalid email");
-  }
+// function includes(){
+//   let sentence = "uwitonzesonia2005@gmail.com";
+//   if (sentence.includes("@")){
+//     console.log("valid email");
+//   }
+//   else {
+//     console.log("invalid email");
+//   }
+// }
+// includes();
+function startswith(){
+  let sentence = "A have big heaD";
+  console.log(sentence.startsWith("A"));
+  console.log(sentence.startsWith("h"));
+  console.log(sentence.startsWith(" have"));
+  console.log(sentence.startsWith(" "));
 }
-includes();
+startswith();
