@@ -86,7 +86,7 @@
 // }
 // ifelse();
 // function weekdays(){
-//  let days = 4;
+//  let days ;
 //   switch(days){
 //     case 1: 
 //     console.log("starting of the week");
@@ -124,10 +124,22 @@
 //   console.log("we can leave");
 // }
 // comparing();
-function trim(){
-  let name = "   Sonia   ";
-  let sentence = "I am the win";
-  console.log(name.trim());
-  console.log(sentence.includes("javascript"));
+// function trim(){
+//   let name = "   Sonia   ";
+//   let sentence = "I am the win";
+//   console.log(name.trim());
+//   console.log(sentence.includes("javascript"));
+// }
+// trim();
+function boolToWord( bool ){
+
+  if( bool === true){
+    console.log("yes");
+  }
+  else if ( bool === false) {
+    console.log("No");
+  }
+  
 }
-trim();
+boolToWord(true);
+boolToWord(false);
