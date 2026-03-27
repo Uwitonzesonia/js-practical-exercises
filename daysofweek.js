@@ -171,15 +171,30 @@
 //   console.log(sentence.startsWith(" "));
 // }
 // startswith();
-function startwith(){
-  let sentence1 = " I love you";
-  let rwandan = "+250792827279";
-  console.log(sentence1.startsWith("you",5));
-  if (rwandan.startsWith("+250")){
-    console.log("rwandan number");
-  }
-  else {
-    console.log("not rwandan number");
-  }
+// function startwith(){
+//   let sentence1 = " I love you";
+//   let rwandan = "+250792827279";
+//   console.log(sentence1.startsWith("you",5));
+//   if (rwandan.startsWith("+250")){
+//     console.log("rwandan number");
+//   }
+//   else {
+//     console.log("not rwandan number");
+//   }
+// }
+// startwith();
+function built(){
+  let sentence = "  I love you   ";
+  console.log(sentence.toUpperCase());
+  console.log(sentence.toLowerCase());
+  console.log(sentence.length);
+  console.log(sentence.trim());
+  console.log(sentence.includes("love"));
+  console.log(sentence.includes("hate"));
+  console.log(sentence.startsWith("I"));
+  console.log(sentence.startsWith(" love"));
+  console.log(sentence.endsWith("you"));
+  console.log(sentence.endsWith("I"));
+  console.log(sentence.startsWith("love",3));
 }
-startwith();
+built();
