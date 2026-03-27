@@ -163,11 +163,23 @@
 //   }
 // }
 // includes();
-function startswith(){
-  let sentence = "A have big heaD";
-  console.log(sentence.startsWith("A"));
-  console.log(sentence.startsWith("h"));
-  console.log(sentence.startsWith(" have"));
-  console.log(sentence.startsWith(" "));
+// function startswith(){
+//   let sentence = "A have big heaD";
+//   console.log(sentence.startsWith("A"));
+//   console.log(sentence.startsWith("h"));
+//   console.log(sentence.startsWith(" have"));
+//   console.log(sentence.startsWith(" "));
+// }
+// startswith();
+function startwith(){
+  let sentence1 = " I love you";
+  let rwandan = "+250792827279";
+  console.log(sentence1.startsWith("you",5));
+  if (rwandan.startsWith("+250")){
+    console.log("rwandan number");
+  }
+  else {
+    console.log("not rwandan number");
+  }
 }
-startswith();
+startwith();
