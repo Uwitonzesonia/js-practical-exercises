@@ -145,11 +145,21 @@
 // boolToWord(true);
 // boolToWord(false);
 
+// function includes(){
+//   let sentence = " we are auca students";
+//   console.log(sentence.includes("are"));
+//   console.log(sentence.includes("we"));
+//   console.log(sentence.includes("hey"));
+//   console.log(sentence.includes("hope"));
+// }
+// includes();
 function includes(){
-  let sentence = " we are auca students";
-  console.log(sentence.includes("are"));
-  console.log(sentence.includes("we"));
-  console.log(sentence.includes("hey"));
-  console.log(sentence.includes("hope"));
+  let sentence = "uwitonzesonia2005@gmail.com";
+  if (sentence.includes("@")){
+    console.log("valid email");
+  }
+  else {
+    console.log("invalid email");
+  }
 }
 includes();
