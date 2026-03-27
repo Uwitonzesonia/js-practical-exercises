@@ -131,15 +131,25 @@
 //   console.log(sentence.includes("javascript"));
 // }
 // trim();
-function boolToWord( bool ){
+/* To day exercises*/
+// function boolToWord( bool ){
 
-  if( bool === true){
-    console.log("yes");
-  }
-  else if ( bool === false) {
-    console.log("No");
-  }
+//   if( bool === true){
+//     console.log("yes");
+//   }
+//   else if ( bool === false) {
+//     console.log("No");
+//   }
   
+// }
+// boolToWord(true);
+// boolToWord(false);
+
+function includes(){
+  let sentence = " we are auca students";
+  console.log(sentence.includes("are"));
+  console.log(sentence.includes("we"));
+  console.log(sentence.includes("hey"));
+  console.log(sentence.includes("hope"));
 }
-boolToWord(true);
-boolToWord(false);
+includes();
