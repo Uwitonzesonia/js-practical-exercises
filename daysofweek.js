@@ -209,7 +209,8 @@ function index(){
   console.log(sentence.trim());
   console.log(sentence.startsWith("am",3));
   console.log(sentence.endsWith("Auca"));
-  
+  console.log(sentence.lastIndexOf("student",6));
+  console.log(sentence.slice(0,13));
 
 }
 index();
