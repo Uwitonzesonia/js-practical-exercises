@@ -183,18 +183,33 @@
 //   }
 // }
 // startwith();
-function built(){
-  let sentence = "  I love you   ";
+// function built(){
+//   let sentence = "  I love you   ";
+//   console.log(sentence.toUpperCase());
+//   console.log(sentence.toLowerCase());
+//   console.log(sentence.length);
+//   console.log(sentence.trim());
+//   console.log(sentence.includes("love"));
+//   console.log(sentence.includes("hate"));
+//   console.log(sentence.startsWith("I"));
+//   console.log(sentence.startsWith(" love"));
+//   console.log(sentence.endsWith("you"));
+//   console.log(sentence.endsWith("I"));
+//   console.log(sentence.startsWith("love",3));
+// }
+// built();
+function index(){
+  let sentence = " I am student in Auca" ;
+  console.log(sentence.indexOf("am"));
+  console.log(sentence.indexOf("I"));
   console.log(sentence.toUpperCase());
   console.log(sentence.toLowerCase());
+  console.log(sentence.includes("Auca"));
   console.log(sentence.length);
   console.log(sentence.trim());
-  console.log(sentence.includes("love"));
-  console.log(sentence.includes("hate"));
-  console.log(sentence.startsWith("I"));
-  console.log(sentence.startsWith(" love"));
-  console.log(sentence.endsWith("you"));
-  console.log(sentence.endsWith("I"));
-  console.log(sentence.startsWith("love",3));
+  console.log(sentence.startsWith("am",3));
+  console.log(sentence.endsWith("Auca"));
+  
+
 }
-built();
+index();
