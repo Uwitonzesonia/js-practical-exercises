@@ -211,6 +211,13 @@ function index(){
   console.log(sentence.endsWith("Auca"));
   console.log(sentence.lastIndexOf("student",6));
   console.log(sentence.slice(0,13));
+  console.log(sentence.replace("Auca","Advanced university of central Africa"));
+  console.log(sentence.split(" "));
+  console.log(sentence.split(","));
+  console.log(sentence.split(" ",3));
+  console.log(sentence.repeat(3));
+  console.log(sentence.charAt(9));
+  
 
 }
 index();
