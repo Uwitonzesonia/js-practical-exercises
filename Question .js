@@ -1,10 +1,18 @@
-let name ="Sonia";
-function Greeting(){
-    let greet = "Uwitonze";
-    console.log(greet);
-    console.log(name);
+// var name ="Sonia";
+// function Greeting(){
+//     var greet = "Uwitonze";
+//     console.log(greet);
+//     console.log(name);
+// }
+// console.log(name);
+
+
+// Greeting();
+function greeting(){
+    let Students = true;
+    if (true){
+         var Name = " students in AUCA";
+    }
+    console.log(Name);
 }
-console.log(name);
-
-
-Greeting();
+greeting();
