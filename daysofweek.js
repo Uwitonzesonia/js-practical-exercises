@@ -198,26 +198,30 @@
 //   console.log(sentence.startsWith("love",3));
 // }
 // built();
-function index(){
-  let sentence = " I am student in Auca" ;
-  console.log(sentence.indexOf("am"));
-  console.log(sentence.indexOf("I"));
-  console.log(sentence.toUpperCase());
-  console.log(sentence.toLowerCase());
-  console.log(sentence.includes("Auca"));
-  console.log(sentence.length);
-  console.log(sentence.trim());
-  console.log(sentence.startsWith("am",3));
-  console.log(sentence.endsWith("Auca"));
-  console.log(sentence.lastIndexOf("student",6));
-  console.log(sentence.slice(0,13));
-  console.log(sentence.replace("Auca","Advanced university of central Africa"));
-  console.log(sentence.split(" "));
-  console.log(sentence.split(","));
-  console.log(sentence.split(" ",3));
-  console.log(sentence.repeat(3));
-  console.log(sentence.charAt(9));
-  
+// 
+function Array(){
+  let lectures = ["rebecca","gloria","Gashaija","brendh"];
+  let students = ["kaneza"," mukamana","mukanabana","mukamabano"];
+  lectures.push("Mukarukundo");
+  students.push("paul");
+  lectures.unshift("muhoza");
+  students.unshift("kayitesi");
+  console.log(lectures);
+  console.log(students);
+  console.log(lectures.join(" "));
+  console.log(students.join(" , "));
+  console.log(lectures.join(" - "));
+  console.log(students.join( " /" ));
+  console.log(lectures.reverse());
+  console.log(students.sort());
+  console.log(lectures.slice(1,2));
+
 
 }
-index();
+Array();
+// function array()
+// let students = ["Sonia", "Alice", "Bob"];
+
+// students.forEach(function(student) {
+//     console.log(student);
+// });
