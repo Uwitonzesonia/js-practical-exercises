@@ -199,29 +199,31 @@
 // }
 // built();
 // 
-function Array(){
-  let lectures = ["rebecca","gloria","Gashaija","brendh"];
-  let students = ["kaneza"," mukamana","mukanabana","mukamabano"];
-  lectures.push("Mukarukundo");
-  students.push("paul");
-  lectures.unshift("muhoza");
-  students.unshift("kayitesi");
-  console.log(lectures);
-  console.log(students);
-  console.log(lectures.join(" "));
-  console.log(students.join(" , "));
-  console.log(lectures.join(" - "));
-  console.log(students.join( " /" ));
-  console.log(lectures.reverse());
-  console.log(students.sort());
-  console.log(lectures.slice(1,2));
+// function Array(){
+//   let lectures = ["rebecca","gloria","Gashaija","brendh"];
+//   let students = ["kaneza"," mukamana","mukanabana","mukamabano"];
+//   lectures.push("Mukarukundo");
+//   students.push("paul");
+//   lectures.unshift("muhoza");
+//   students.unshift("kayitesi");
+//   console.log(lectures);
+//   console.log(students);
+//   console.log(lectures.join(" "));
+//   console.log(students.join(" , "));
+//   console.log(lectures.join(" - "));
+//   console.log(students.join( " /" ));
+//   console.log(lectures.reverse());
+//   console.log(students.sort());
+//   console.log(lectures.slice(1,2));
 
 
+// }
+// Array();
+function array(){
+let students = ["Sonia", "Alice", "Bob"];
+
+students.forEach(function(student) {
+    console.log(student);
+});
 }
-Array();
-// function array()
-// let students = ["Sonia", "Alice", "Bob"];
-
-// students.forEach(function(student) {
-//     console.log(student);
-// });
+array();
