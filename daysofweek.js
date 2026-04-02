@@ -219,11 +219,17 @@
 
 // }
 // Array();
-function array(){
-let students = ["Sonia", "Alice", "Bob"];
+// function array(){
+// let students = ["Sonia", "Alice", "Bob"];
 
-students.forEach(function(student) {
-    console.log(student);
-});
+// students.forEach(function(student) {
+//     console.log(student);
+// });
+// }
+// array();
+function loop(){
+  for (let i=0 ; i<=5 ; i++){
+    console.log(i);
+  }
 }
-array();
+loop();
