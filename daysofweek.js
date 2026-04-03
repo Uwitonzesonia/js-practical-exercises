@@ -227,9 +227,40 @@
 // });
 // }
 // array();
-function loop(){
-  for (let i=0 ; i<=5 ; i++){
-    console.log(i);
-  }
+// function loop(){
+//   for (let i=0 ; i<=5 ; i++){
+//     console.log(i);
+//   }
+// }
+// loop();
+// function loops(){
+//  let names = ["sonia","alice","bob"];
+//  console.log("Hello" + names(0));
+//  console.log("Hello" + names(1);
+//  console.log("Hello" + names[2]);
+// }
+// function slice(names){
+//   console.log(names.slice(0 , 1));
+//   console.log(names);
+// }
+// slice("sonia");
+// function check() {
+//   let age = 67;
+// let converted = String(age);
+
+// console.log(converted);        // 25
+// console.log(typeof converted); // "number"
+
+// }
+// check();
+function check(){
+  let Taxe_late = 0.08;
+  let amount = 99.99;
+  amount = amount * 2 ;
+  amount = amount + ( amount * Taxe_late);
+  console.log(amount);
+  console.log(amount.toFixed(4));
+
+  
 }
-loop();
+check ();
