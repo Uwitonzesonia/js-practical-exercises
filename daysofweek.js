@@ -253,14 +253,51 @@
 
 // }
 // check();
-function check(){
-  let Taxe_late = 0.08;
-  let amount = 99.99;
-  amount = amount * 2 ;
-  amount = amount + ( amount * Taxe_late);
-  console.log(amount);
-  console.log(amount.toFixed(4));
+// function check(){
+//   let Taxe_late = 0.08;
+//   let amount = 99.99;
+//   amount = amount * 2 ;
+//   amount = amount + ( amount * Taxe_late);
+//   console.log(amount);
+//   console.log(amount.toFixed(4));
 
   
+// }
+// check ();
+// function check() {
+//   let amount = 99.99;
+// // a general block
+// {
+// amount = amount * 2;
+// console.log( amount );  // 199.98
+// }
+// }
+// check() ;
+// function check() {
+//     for( i=0 ; i <=9 ; i++){
+//         console.log(i);
+//     }
+// }
+// check ();
+
+// const TAX_RATE = 0.08;
+// function calculateFinalPurchaseAmount(amt) {
+// // calculate the new amount with the tax
+// amt = amt + (amt * TAX_RATE);
+// // return the new amount
+// return amt;
+// }
+// var amount = 99.99;
+// amount = calculateFinalPurchaseAmount( amount );
+// console.log( amount.toFixed( 2 ) );     
+// // "107.99"
+// calculateFinalPurchaseAmount();
+function loop(){
+    // console.log("Hello");
+    // console.log("Hello");
+    // console.log("Hello");
+    for(i=1 ; i <= 3 ; i++){
+        console.log("Hello");
+    }
 }
-check ();
+loop();
