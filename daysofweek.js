@@ -296,8 +296,24 @@ function loop(){
     // console.log("Hello");
     // console.log("Hello");
     // console.log("Hello");
-    for(i=1 ; i <= 3 ; i++){
-        console.log("Hello");
-    }
+    // for(i=1 ; i <= 3 ; i++){
+    //     console.log("Hello");
+    // }
+    
+    // let i = 0;
+
+    //    while (i <= 5){
+    //   console.log(i);
+    //      i++;
+    //           }
+//     for (let i = 1; i <= 3; i++){
+//   console.log(i);
+// }
+let number = 3;
+while(number >=0){
+  console.log("how can i help you");
+  number = number - 1;
+}
+
 }
 loop();
