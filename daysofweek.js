@@ -292,7 +292,7 @@
 // console.log( amount.toFixed( 2 ) );     
 // // "107.99"
 // calculateFinalPurchaseAmount();
-function loop(){
+
     // console.log("Hello");
     // console.log("Hello");
     // console.log("Hello");
@@ -309,11 +309,56 @@ function loop(){
 //     for (let i = 1; i <= 3; i++){
 //   console.log(i);
 // }
-let number = 3;
-while(number >=0){
-  console.log("how can i help you");
-  number = number - 1;
-}
+// let number = 3;
+// while(number >=0){
+//   console.log("how can i help you");
+//   number = number - 1;
+// }
+// let number = 3 ;
+// do {
+//   console.log("how can i help you");
+//   number = number - 1 ;
+// } while (number < 0);
+// var a = "42";
+// var b = a * 1;
+// console.log(typeof a);              
+// console.log(typeof b); 
+// function foo() {
+// var a = 1;
+// function bar() {
+// var b = 2;
+// function baz() {
+// var c = 3;
+// function buz (){
+//   var d = 4 ;
+//   function biz () {
+//     var e= 5 ;
+//     console.log(a,b,c,d,e);
+//   }
+//   biz ();
+//   console.log(a,b,c,d);
+// }
+// buz() ;
+// console.log(a,b,c);
+// }
+// baz()
+// console.log( a, b );        
+// }
+// bar();
+// console.log( a );               
+// }
+// foo();
+// function dom(){
+// var x;
+// console.log(x); // undefined
+// x = 5;
 
-}
-loop();
+// }
+// dom () ;
+let user = {
+  name: "John",
+  greet() {
+    console.log(this.name);
+  }
+};
+user.greet();
