@@ -355,10 +355,26 @@
 
 // }
 // dom () ;
-let user = {
-  name: "John",
-  greet() {
-    console.log(this.name);
-  }
-};
-user.greet();
+// let user = {
+//   name: "John",
+//   greet() {
+//     console.log(this.name);
+//   }
+// };
+// user.greet();
+// function greet(name) {
+//   console.log("Hello " + name);
+// }
+
+// function processUser(check) {
+//   let name = "John";
+//   check(name); // calling the callback
+// }
+
+// `processUser`(greet);
+function map(){
+  const nums = [1, 2, 3];
+
+const result = nums.map(num => num * 2);
+}
+map();
